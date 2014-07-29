@@ -31,7 +31,9 @@ if($_POST){
 </head>
 <body>
 <form action="" method="post" >
-<input type="text" name="api_key" value="" size="36"/>
+<label for="api_key">TinyPNG API Key</label><br/>
+<input type="text" name="api_key" value="" size="36"/><br/>
+<label for="files">Image URL</label><br/>
 <textarea rows="10" name="files" cols="80">
 </textarea>
 <br/>
